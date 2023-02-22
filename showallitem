@@ -1,4 +1,3 @@
-repeat wait() until game:IsLoaded() and _G.isTablehubLoaded
 getgenv().Config = {
     ["Delay"] = 500, -- nếu treo nhiều acc thì chỉnh cao lên tí nữa, chỉnh thấp RAM sẽ crash
     ["One Time Check"] = {
