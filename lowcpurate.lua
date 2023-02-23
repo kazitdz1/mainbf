@@ -1,0 +1,5 @@
+local RunService = game:GetService("RunService")
+RunService:Set3dRenderingEnabled(false)
+  game:GetService("Players").LocalPlayer.PlayerGui.Main.Compass:Destroy()
+end)
+setfpscap(15)
