@@ -223,6 +223,6 @@ pcall(function()
     game:GetService("Players").LocalPlayer.PlayerGui.Main.Compass:Destroy()
 end)
 blur = Instance.new('BlurEffect', game.Lighting)
-	blur.Size = 25
+	blur.Size = 15
 	
 
